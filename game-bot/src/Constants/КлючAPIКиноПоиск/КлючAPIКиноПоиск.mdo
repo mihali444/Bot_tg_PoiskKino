@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6562a4e-568c-45f2-9376-6d3268f513f2">
+  <producedTypes>
+    <managerType typeId="8a48149c-188b-45ee-9aa0-ff508966c300" valueTypeId="24424856-9da5-4531-a18e-9c9fd084057d"/>
+    <valueManagerType typeId="df018fad-0c3c-49a1-aea6-cce2491729ad" valueTypeId="51c748ba-3463-409d-8b6a-f73e506ebc71"/>
+    <valueKeyType typeId="ab73b628-5ffa-4da6-b29e-bc644d660aae" valueTypeId="ed09d331-3819-4bf0-9fe8-7bc2250df42f"/>
+  </producedTypes>
+  <name>КлючAPIКиноПоиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ API КиноПоиск</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

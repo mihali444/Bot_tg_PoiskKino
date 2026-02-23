@@ -33,4 +33,11 @@
       <value>Тест с расшифровкой</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="9b7cd87c-0cfc-4501-8c1d-2600dad38735">
+    <name>ПоискКино</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск кино</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b1abe33-6be8-4bc0-b1b4-6a70acfe85ff">
+  <producedTypes>
+    <refType typeId="cac32af6-6572-4b17-8b55-841b4eb0bff3" valueTypeId="68940890-1a56-45fc-9dc5-2bb90e2bb5c0"/>
+    <listType typeId="d9b347ec-e368-4c70-a063-929d456d8ea0" valueTypeId="5ab90df4-f6f5-466c-a548-67c5fa3e3aa7"/>
+    <managerType typeId="a21fbeaa-8bd1-4330-90ba-f33d1bca307f" valueTypeId="51e17925-5ac5-4bed-803e-6844c446b907"/>
+  </producedTypes>
+  <name>СтатусыПоискКино</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы поиск кино</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="068035e4-4f16-4b63-9f52-ed9950741b79">
+    <name>Приветствие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приветствие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cacf1a0d-54f1-4215-8474-bcdb5acc0c83">
+    <name>КлючевоеСлово</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевое слово</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77359e7e-561d-43d6-803a-fc285ee52c67">
+    <name>ВводКлючевойФразы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод ключевой фразы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d99e0be0-bff9-4468-b2d6-d2863e39a89e">
+    <name>ВыборФильма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор фильма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47d47f5f-dda2-46e3-9b8f-e93a708dafe8">
+    <name>СтраницаФильма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страница фильма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73a2c1e5-4fbf-4fd6-a798-bdf05c11b3f1">
+    <name>ФактыОФильме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факты о фильме</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

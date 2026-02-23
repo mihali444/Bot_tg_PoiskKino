@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77f215eb-0ec1-4952-af47-3ce1fc19f1e5">
+  <producedTypes>
+    <selectionType typeId="ace079e0-6d49-4374-b32f-469f541ac283" valueTypeId="7cb726d9-aa61-4fe7-81f2-c38aad084d52"/>
+    <listType typeId="fcbfa6e3-990c-4152-a3c3-338ece87f494" valueTypeId="b9774184-285c-445b-b7d4-116784c80d1e"/>
+    <managerType typeId="8cbbc6f5-02be-445f-bb9c-65123f03053c" valueTypeId="c2285546-1724-4f2e-a26f-5c4281fdf783"/>
+    <recordSetType typeId="ca893557-8e51-43c1-9183-6811269f306e" valueTypeId="fee4aa11-438e-45de-a71d-d54e8af46643"/>
+    <recordKeyType typeId="9d73d164-ec64-4d43-9042-ef39440440f4" valueTypeId="3c3a0721-4acb-4109-b0cf-7bf38a91566b"/>
+    <recordType typeId="a028b5aa-e930-4b59-b718-7b59569dd5e3" valueTypeId="6c164179-d469-484b-a672-6a6cfd59f1f7"/>
+    <recordManagerType typeId="fa88f3f9-44bb-4bcd-bfc4-2a0db0b74186" valueTypeId="10a6d3f4-63a9-414f-9923-06b219ff9c99"/>
+  </producedTypes>
+  <name>СтатусыПоискКино</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы поиск кино</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Статус поиск кино</value>
+  </recordPresentation>
+  <resources uuid="e69b0a82-51eb-4c12-8889-241f4713ec3f">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыПоискКино</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ac92e3bf-42df-4cdd-be35-cc940ffca6af">
+    <name>ДополнительныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fe4e28d2-bc6d-401f-9799-0fc7e50de511">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиТелеграм</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1cff22f-e9e6-47a2-808c-d87c1fe0aa0f">
+  <name>Клавиатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клавиатуры</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

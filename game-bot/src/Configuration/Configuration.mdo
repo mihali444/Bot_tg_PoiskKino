@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ce4f3b-212b-47db-8cd1-3f4965bb2459">
-  <name>ИгровойБот</name>
+  <name>ПоискКиноБот</name>
   <synonym>
     <key>ru</key>
-    <value>Игровой бот</value>
+    <value>Поиск кино бот</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3e770eb9-32b4-44c5-aeb6-dd1dbd569f1e"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0a1977b0-7831-41a3-a091-b73ecdab5fbf"/>
@@ -29,7 +29,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
-    <value>Серегин Матвей</value>
+    <value>Серегин Матвей, Малкин Михаил</value>
   </copyright>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -56,11 +56,17 @@
   <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
   <commonModules>CommonModule.ТелеграмЭхо</commonModules>
   <commonModules>CommonModule.ТелеграмТестСРасшифровкой</commonModules>
+  <commonModules>CommonModule.ТелеграмПоискКино</commonModules>
+  <commonModules>CommonModule.РаботаСоСтатусом</commonModules>
+  <commonModules>CommonModule.Клавиатуры</commonModules>
+  <commonModules>CommonModule.РаботаСТекстом</commonModules>
   <constants>Constant.ИдентификаторПоследнегоОбновления</constants>
   <constants>Constant.РежимРаботыБота</constants>
   <constants>Constant.ТокенТелеграмБота</constants>
   <constants>Constant.ПриветствиеТестаСРасшифровкой</constants>
   <constants>Constant.ОбщиеРекомендацииТестаСРасшифровкой</constants>
+  <constants>Constant.КлючAPIКиноПоиск</constants>
+  <constants>Constant.АдресСервера</constants>
   <catalogs>Catalog.ВопросыПростойВикторины</catalogs>
   <catalogs>Catalog.ОчередьОбработкиСообщений</catalogs>
   <catalogs>Catalog.ТелеграмЧаты</catalogs>
@@ -70,7 +76,9 @@
   <documents>Document.ПрохождениеТестаСРасшифровкой</documents>
   <enums>Enum.РежимРаботыБота</enums>
   <enums>Enum.СтатусыТестаСРасшифровкой</enums>
+  <enums>Enum.СтатусыПоискКино</enums>
   <dataProcessors>DataProcessor.ОбработкаВходящихСообщений</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаТестаСРасшифровкой</dataProcessors>
   <informationRegisters>InformationRegister.СтатусыТестаСРасшифровкой</informationRegisters>
+  <informationRegisters>InformationRegister.СтатусыПоискКино</informationRegisters>
 </mdclass:Configuration>

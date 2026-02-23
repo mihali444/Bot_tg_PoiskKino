@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b1c68f7-3b8f-4bd7-9162-a04b2760cbfc">
+  <name>ТелеграмПоискКино</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм поиск кино</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
