@@ -19,20 +19,6 @@
       <value>Приветствие</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="cacf1a0d-54f1-4215-8474-bcdb5acc0c83">
-    <name>КлючевоеСлово</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ключевое слово</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="77359e7e-561d-43d6-803a-fc285ee52c67">
-    <name>ВводКлючевойФразы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ввод ключевой фразы</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="d99e0be0-bff9-4468-b2d6-d2863e39a89e">
     <name>ВыборФильма</name>
     <synonym>
@@ -52,6 +38,55 @@
     <synonym>
       <key>ru</key>
       <value>Факты о фильме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da141e64-77fa-41f8-8f57-83714a9fce76">
+    <name>Ожидание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="172dcc24-047a-473f-b046-0d1a3f158fd1">
+    <name>ВводФразыФильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод фразы фильм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3896b5b-8ada-4c48-bb59-f113cf14b1b9">
+    <name>ВводФразыАктёр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод фразы актёр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b10278fa-c588-4ffa-a05a-730dafe35d3c">
+    <name>ВыборАктёра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор актёра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bd7fd2c-3222-42d6-b518-4ab43e22bd2b">
+    <name>ФразаФильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фраза фильм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12602475-d119-4926-ae8d-82811e8bd60e">
+    <name>ФразаАктёр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фраза актёр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21b77653-e814-401b-84cc-2c6d1c636717">
+    <name>СтраницаАктера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страница актера</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>
