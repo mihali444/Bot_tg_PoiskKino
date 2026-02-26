@@ -89,4 +89,11 @@
       <value>Страница актера</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="c9e18364-6e3e-499f-954f-d0b83002a18a">
+    <name>ФактыОбАктере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факты об актере</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
